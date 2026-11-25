@@ -1,7 +1,7 @@
 pipeline {
-    agent {
-        label 'build-server'
-    }
+agent {
+    label 'build-server-agent'
+}
 
     stages {
         stage('Checkout') {
